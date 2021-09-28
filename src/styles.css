@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header {
+  background-color: #ddffff;
+}
+.sideArea {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ff55ff;
+}
+.bodyContent {
+  display: flex;
+}
+.fileList {
+  background-color: #ddff55;
+  width: 400px;
+  height: 600px;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
+.player {
+  background-color: #dddddd;
+  width: 400px;
+  height: 600px;
+}
+
+.list-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-row-li {
+  list-style: circle;
+  overflow-wrap: wrap;
+  flex-wrap: wrap;
+  width: 200px;
+  background-color: #dddddd;
+  padding-left: 0px;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+ul {
+  list-style-position: inside;
+}
